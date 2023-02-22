@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¡Perú - Viajes! - Contacto</title>
+    <!-- AOS CDN Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Font Awesome CDN link  -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header - Start -->
+    <header class="header">
+      <!-- Component - Flex box -->
+      <section class="flex">
+        <!-- Element - Logo -->
+        <a href="home.html" class="logo">Travia.</a>
+        <!-- Componente - Navigation -->
+        <nav class="navbar">
+          <a href="home.html">Inicio</a>
+          <a href="about.html">Nosotros</a>
+          <a href="tours.html">Tours</a>
+          <a href="destinations.html">Destinos</a>
+          <a href="contact.html">Contacto</a>
+        </nav>
+        <!-- Elemento - Hamburger Icon -->
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+    </header>
+    <!-- Header - End -->
+
+    <!-- Contact - Starts -->
+    <div class="container contact">
+      <!-- Element - Title -->
+      <h1 class="heading" data-aos="zoom-out">Contacto</h1>
+      <!-- Component - Section -->
+      <section>
+        <!-- Component - Row -->
+        <div class="row">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7802.176555067889!2d-77.03013676440189!3d-12.106108949089808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8133845468f%3A0x21b38e8c05530608!2sAvenida%20Domingo%20Orue!5e0!3m2!1ses!2spe!4v1676940535251!5m2!1ses!2spe"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <!-- Component - Form -->
+          <form action="" method="post" data-aos="flip-right">
+            <h3>Podemos ayudarte</h3>
+            <input
+              type="text"
+              name="name"
+              required
+              maxlength="50"
+              placeholder="Nombres completos"
+              class="box"
+            />
+            <input
+              type="email"
+              name="email"
+              required
+              maxlength="50"
+              placeholder="Correo electrónico"
+              class="box"
+            />
+            <input
+              type="number"
+              name="number"
+              required
+              maxlength="10"
+              min="0"
+              max="999999999"
+              placeholder="Número de referencia"
+              class="box"
+            />
+            <textarea
+              name="message"
+              class="box"
+              required
+              maxlength="1000"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" value="enviar" name="send" class="btn" />
+          </form>
+        </div>
+
+        <div class="grid">
+          <div class="box" data-aos="fade-up">
+            <i class="fas fa-phone"></i>
+            <h3>Número de contacto</h3>
+            <a href="tel:+51966230373">(+51) 966-230-373</a>
+          </div>
+
+          <div class="box" data-aos="fade-up">
+            <i class="fas fa-envelope"></i>
+            <h3>correo electrónico</h3>
+            <a href="mailto:lparodi.dev@gmail.com">lparodi.dev@gmail.com</a>
+          </div>
+
+          <div class="box" data-aos="fade-up">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Localidad</h3>
+            <a href="#">Lima, Perú</a>
+          </div>
+        </div>
+
+        <div class="credit">
+          &copy; copyright @ 2023 por <span>Luigui Parodi</span> | Todos los
+          derechos reservados
+        </div>
+      </section>
+    </div>
+    <!-- Contact - Ends -->
+
+    <!-- AOS JS File -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Custom JS file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¡Perú - Viajes! - Inicio</title>
+    <!-- AOS CDN Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Font Awesome CDN link  -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header - Start -->
+    <header class="header" data-aos="fade-down">
+      <!-- Component - Flex box -->
+      <section class="flex">
+        <!-- Element - Logo -->
+        <a href="home.html" class="logo">Travia.</a>
+        <!-- Componente - Navigation -->
+        <nav class="navbar">
+          <a href="home.html">Inicio</a>
+          <a href="about.html">Nosotros</a>
+          <a href="tours.html">Tours</a>
+          <a href="destinations.html">Destinos</a>
+          <a href="contact.html">Contacto</a>
+        </nav>
+        <!-- Elemento - Hamburger Icon -->
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+    </header>
+    <!-- Header - End -->
+
+    <!-- Home - Starts -->
+    <div class="container home" data-aos="zoom-out">
+      <!-- Component - Flex box -->
+      <section class="flex" data-aos="zoom-in" data-aos-delay="600">
+        <!-- Component - Form -->
+        <form action="" method="post">
+          <h3>busca un tour</h3>
+          <p>destino</p>
+          <input
+            type="text"
+            name="location"
+            class="box"
+            maxlength="50"
+            placeholder="ingresa tu destino"
+            required
+          />
+          <p>fecha</p>
+          <input type="date" name="date" class="box" required />
+          <p>personas</p>
+          <input
+            type="number"
+            name="guests"
+            class="box"
+            min="1"
+            max="10"
+            maxlength="2"
+            placeholder="número de personas"
+            required
+          />
+          <input
+            type="submit"
+            value="Buscar un tour"
+            name="search"
+            class="btn"
+          />
+        </form>
+      </section>
+    </div>
+    <!-- Home - Ends -->
+
+    <!-- AOS JS File -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Custom JS file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
