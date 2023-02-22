@@ -157,7 +157,7 @@ Todos los derechos reservados TM Luigui A. Parodi Rivas.
 
 Luigui A. Parodi Rivas - lparodi.dev@gmail.com
 
-Enlaces del proyecto: [https://github.com/LPDev93/Travia-website](https://github.com/LPDev93/Travia-webiste)
+Enlaces del proyecto: [https://github.com/LPDev93/Travia-website](https://github.com/LPDev93/Travia-website)
 
 <p align="right">(<a href="#top">volver al inicio</a>)</p>
 
@@ -174,16 +174,16 @@ Enlaces del proyecto: [https://github.com/LPDev93/Travia-website](https://github
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/LPDev93/Travia-webiste.svg?style=for-the-badge
-[contributors-url]: https://github.com/LPDev93/Travia-webiste/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LPDev93/Travia-webiste.svg?style=for-the-badge
-[forks-url]: https://github.com/LPDev93/Travia-webiste/network/members
-[stars-shield]: https://img.shields.io/github/stars/LPDev93/Travia-webiste.svg?style=for-the-badge
-[stars-url]: https://github.com/LPDev93/Travia-webiste/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LPDev93/Travia-webiste.svg?style=for-the-badge
-[issues-url]: https://github.com/LPDev93/Travia-webiste/issues
-[license-shield]: https://img.shields.io/github/license/LPDev93/Travia-webiste.svg?style=for-the-badge
-[license-url]: https://github.com/LPDev93/Travia-webiste/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/LPDev93/Travia-website.svg?style=for-the-badge
+[contributors-url]: https://github.com/LPDev93/Travia-website/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LPDev93/Travia-website.svg?style=for-the-badge
+[forks-url]: https://github.com/LPDev93/Travia-website/network/members
+[stars-shield]: https://img.shields.io/github/stars/LPDev93/Travia-website.svg?style=for-the-badge
+[stars-url]: https://github.com/LPDev93/Travia-website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LPDev93/Travia-website.svg?style=for-the-badge
+[issues-url]: https://github.com/LPDev93/Travia-website/issues
+[license-shield]: https://img.shields.io/github/license/LPDev93/Travia-website.svg?style=for-the-badge
+[license-url]: https://github.com/LPDev93/Travia-website/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lpdev93/
 [github]: https://github.com/LPDev93
